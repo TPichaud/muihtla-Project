@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<angular:Project xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:angular="http://www.univnantes.fr/alma/angular" xsi:schemaLocation="http://www.univnantes.fr/alma/angular ../fr.univnantes.alma.angular/model/angular.ecore">
+  <folders>
+    <modules path="App/User.js">
+      <moduleElements xsi:type="angular:ESClass" name="NewUser" abstract="true"/>
+      <moduleElements xsi:type="angular:ESClass" name="UpdateUser" abstract="true"/>
+      <moduleElements xsi:type="angular:ESClass" name="Test" extends="//@folders.0/@modules.0/@moduleElements.3 //@folders.0/@modules.0/@moduleElements.1" abstract="true">
+        <fields name="NewField1" type="type"/>
+      </moduleElements>
+      <moduleElements xsi:type="angular:ESClass" name="NewClass4">
+        <fields name="NewField1" type="type"/>
+        <functions name="NewFunction1" type="type"/>
+      </moduleElements>
+    </modules>
+    <modules path="App/Common.js"/>
+  </folders>
+</angular:Project>

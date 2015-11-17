@@ -4,10 +4,15 @@
     <modules path="App/User.js">
       <moduleElements xsi:type="angular:ESClass" name="NewUser" abstract="true"/>
       <moduleElements xsi:type="angular:ESClass" name="UpdateUser" abstract="true"/>
-      <moduleElements xsi:type="angular:ESClass" name="Test" extends="//@folders.0/@modules.0/@moduleElements.3 //@folders.0/@modules.0/@moduleElements.1" abstract="true"/>
+      <moduleElements xsi:type="angular:ESClass" name="Test" extends="//@folders.0/@modules.0/@moduleElements.3 //@folders.0/@modules.0/@moduleElements.1" abstract="true">
+        <fields type="type"/>
+        <fields name=" : NewField2" type="type"/>
+        <fields name="type : NewField3" type="bubu"/>
+      </moduleElements>
       <moduleElements xsi:type="angular:ESClass" name="NewClass4">
-        <fields name="FqfQfdqds"/>
-        <functions name="FfsdfFggdswg"/>
+        <functions name="String NewFunction1 ( String: NewParameter ) " type="String">
+          <parameters name="String: NewParameter" type="String"/>
+        </functions>
       </moduleElements>
     </modules>
     <modules path="App/Common.js"/>
