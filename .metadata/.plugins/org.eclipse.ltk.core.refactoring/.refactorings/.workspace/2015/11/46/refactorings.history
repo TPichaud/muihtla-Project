@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete resource &apos;fr.univnantes.alma.angular.modeling/icons&apos;" deleteContents="false" description="Delete resource &apos;fr.univnantes.alma.angular.modeling/icons&apos;" element1="/fr.univnantes.alma.angular.modeling/icons" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1447151708941"/>
+</session>
